@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business", "Enterprise Business", "{BA903CE9-3914-4623-9199-DB9D80156D67}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F33D0D95-75A7-444F-BB72-944468ABE78B}
+	EndGlobalSection
+EndGlobal
