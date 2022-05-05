@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Business", "Enterprise Business", "{BA903CE9-3914-4623-9199-DB9D80156D67}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applicarion Business", "Applicarion Business", "{DAA8DD06-1EE1-4A75-951F-901887E0CD88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Adpaters", "Interface Adpaters", "{FB5A98C5-6D9B-40D4-B919-1A5DCBCA7F4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks and drive", "Frameworks and drive", "{1CD78D5A-BDCB-41F7-A278-8237934A5C61}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
