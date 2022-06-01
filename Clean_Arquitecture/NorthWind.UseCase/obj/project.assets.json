@@ -1,0 +1,237 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "FluentValidation/5.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/Net40/FluentValidation.dll": {}
+        },
+        "resource": {
+          "lib/Net40/de/FluentValidation.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Net40/es/FluentValidation.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Net40/fr/FluentValidation.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Net40/it/FluentValidation.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Net40/ko/FluentValidation.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Net40/nl/FluentValidation.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Net40/pl/FluentValidation.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Net40/pt/FluentValidation.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Net40/ru/FluentValidation.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Net40/sv/FluentValidation.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Net40/tr/FluentValidation.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "MediatR/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "NorthWind.UseCasesDTOs/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/NorthWind.UseCasesDTOs.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NorthWind.UseCasesDTOs.dll": {}
+        }
+      },
+      "Norwind.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Norwind.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Norwind.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentValidation/5.1.0": {
+      "sha512": "rPZ3mYUunfOWiUQ4QI4SHrDfBKHjyd4KOum57NJH/kcQiD6iqPdx+ZKmBCi2IRBrwA2oOiAPmTZGcJa2aGFuVQ==",
+      "type": "package",
+      "path": "fluentvalidation/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidation.5.1.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/Net40/FluentValidation.XML",
+        "lib/Net40/FluentValidation.dll",
+        "lib/Net40/FluentValidation.pdb",
+        "lib/Net40/de/FluentValidation.resources.dll",
+        "lib/Net40/es/FluentValidation.resources.dll",
+        "lib/Net40/fr/FluentValidation.resources.dll",
+        "lib/Net40/it/FluentValidation.resources.dll",
+        "lib/Net40/ko/FluentValidation.resources.dll",
+        "lib/Net40/nl/FluentValidation.resources.dll",
+        "lib/Net40/pl/FluentValidation.resources.dll",
+        "lib/Net40/pt/FluentValidation.resources.dll",
+        "lib/Net40/ru/FluentValidation.resources.dll",
+        "lib/Net40/sv/FluentValidation.resources.dll",
+        "lib/Net40/tr/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/FluentValidation.XML",
+        "lib/portable-win+net40+sl50+wp80/FluentValidation.dll",
+        "lib/portable-win+net40+sl50+wp80/FluentValidation.pdb",
+        "lib/portable-win+net40+sl50+wp80/de/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/es/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/fr/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/it/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/nl/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/pl/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/pt/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/ru/FluentValidation.resources.dll",
+        "lib/portable-win+net40+sl50+wp80/sv/FluentValidation.resources.dll"
+      ]
+    },
+    "MediatR/5.0.1": {
+      "sha512": "SgJDOVGMUwC4E+cw4GTy3nv9gye+K68HXPpRselRXwdOgodpwdq6vTVQajyptk7AVhCzBD8c3ccYLhNRugfgfA==",
+      "type": "package",
+      "path": "mediatr/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MediatR.dll",
+        "lib/netstandard1.3/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.5.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "NorthWind.UseCasesDTOs/1.0.0": {
+      "type": "project",
+      "path": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj",
+      "msbuildProject": "../NorthWind.UseCasesDTOs/NorthWind.UseCasesDTOs.csproj"
+    },
+    "Norwind.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Norwind.Entities/Norwind.Entities.csproj",
+      "msbuildProject": "../Norwind.Entities/Norwind.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "FluentValidation >= 5.1.0",
+      "MediatR >= 5.0.1",
+      "NorthWind.UseCasesDTOs >= 1.0.0",
+      "Norwind.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aquispe\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\aquispe\\Desktop\\CleanArquitecture\\Clean_Arquitecture\\NorthWind.UseCase\\NorthWind.UseCase.csproj",
+      "projectName": "NorthWind.UseCase",
+      "projectPath": "C:\\Users\\aquispe\\Desktop\\CleanArquitecture\\Clean_Arquitecture\\NorthWind.UseCase\\NorthWind.UseCase.csproj",
+      "packagesPath": "C:\\Users\\aquispe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aquispe\\Desktop\\CleanArquitecture\\Clean_Arquitecture\\NorthWind.UseCase\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aquispe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\aquispe\\Desktop\\CleanArquitecture\\Clean_Arquitecture\\NorthWind.UseCasesDTOs\\NorthWind.UseCasesDTOs.csproj": {
+              "projectPath": "C:\\Users\\aquispe\\Desktop\\CleanArquitecture\\Clean_Arquitecture\\NorthWind.UseCasesDTOs\\NorthWind.UseCasesDTOs.csproj"
+            },
+            "C:\\Users\\aquispe\\Desktop\\CleanArquitecture\\Clean_Arquitecture\\Norwind.Entities\\Norwind.Entities.csproj": {
+              "projectPath": "C:\\Users\\aquispe\\Desktop\\CleanArquitecture\\Clean_Arquitecture\\Norwind.Entities\\Norwind.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FluentValidation 5.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "FluentValidation",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

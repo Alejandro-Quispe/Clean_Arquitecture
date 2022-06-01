@@ -1,0 +1,12 @@
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\bin\Debug\net5.0\Norwind.Entities.deps.json
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\bin\Debug\net5.0\Norwind.Entities.dll
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\bin\Debug\net5.0\ref\Norwind.Entities.dll
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\bin\Debug\net5.0\Norwind.Entities.pdb
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\Norwind.Entities.csproj.AssemblyReference.cache
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\Norwind.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\Norwind.Entities.AssemblyInfoInputs.cache
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\Norwind.Entities.AssemblyInfo.cs
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\Norwind.Entities.csproj.CoreCompileInputs.cache
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\Norwind.Entities.dll
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\ref\Norwind.Entities.dll
+C:\Users\aquispe\Desktop\CleanArquitecture\Clean_Arquitecture\Norwind.Entities\obj\Debug\net5.0\Norwind.Entities.pdb

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="5.1.0" />
+    <PackageReference Include="MediatR" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NorthWind.UseCasesDTOs\NorthWind.UseCasesDTOs.csproj" />
+    <ProjectReference Include="..\Norwind.Entities\Norwind.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
