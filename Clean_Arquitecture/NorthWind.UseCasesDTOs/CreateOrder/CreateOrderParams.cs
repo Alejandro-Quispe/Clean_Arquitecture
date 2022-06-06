@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 // proporciona los datos webasembly
 namespace NorthWind.UseCasesDTOs.CreateOrder
 {
+
+    /// <summary>
+    ///  ese el asemby que van utilizar los datos
+    /// </summary>
    public class CreateOrderParams
     {
 

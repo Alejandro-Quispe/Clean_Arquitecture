@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace NorthWind.UseCase.CreateOrder
 {
+    // devuelve una orden
+    // hereda createorderparams para no duplicar
     public class CreateOrderInputPort : CreateOrderParams, IRequest<int>
     {
         // devuel el numero de la orden

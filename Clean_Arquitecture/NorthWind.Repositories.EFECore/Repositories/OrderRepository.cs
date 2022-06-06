@@ -12,9 +12,10 @@ namespace NorthWind.Repositories.EFCore.Repositories
 {
     public class OrderRepository : IOrderRepository
     {
-
+        // recibir el conexto de datos
         readonly NorthWindContext Context;
 
+        // lo inyectamos
         public OrderRepository(NorthWindContext context) =>
             Context=context;
 
