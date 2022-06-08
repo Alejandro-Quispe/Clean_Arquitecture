@@ -64,38 +64,38 @@ namespace NorthWind.Repositories.EFCore.DataContext
                     .HasMaxLength(60); // SOLO ACEPTA 60 CARACR¿TERES
 
 
-            modelBuilder.Entity<Order>()
-            .Property(o => o.ShipCity)
-            .IsRequired()  // NO ACEPTA NULOS
-            .HasMaxLength(15); // SOLO ACEPTA 15 CARACR¿TERES
+                    modelBuilder.Entity<Order>()
+                    .Property(o => o.ShipCity)
+                    .IsRequired()  // NO ACEPTA NULOS
+                    .HasMaxLength(15); // SOLO ACEPTA 15 CARACR¿TERES
 
 
-            modelBuilder.Entity<Order>()
-                      .Property(o => o.ShipCountry)
-                      .IsRequired()  // NO ACEPTA NULOS
-                      .HasMaxLength(15); // SOLO ACEPTA 15 CARACR¿TERES
+                    modelBuilder.Entity<Order>()
+                    .Property(o => o.ShipCountry)
+                    .IsRequired()  // NO ACEPTA NULOS
+                    .HasMaxLength(15); // SOLO ACEPTA 15 CARACR¿TERES
 
 
-            modelBuilder.Entity<Order>()
-          .Property(o => o.ShipPostalCode)
-          .IsRequired()  // NO ACEPTA NULOS
-          .HasMaxLength(10); // SOLO ACEPTA 10 CARACR¿TERES
+                    modelBuilder.Entity<Order>()
+                    .Property(o => o.ShipPostalCode)
+                    .IsRequired()  // NO ACEPTA NULOS
+                    .HasMaxLength(10); // SOLO ACEPTA 10 CARACR¿TERES
 
 
-            modelBuilder.Entity<OrderDetail>()
-                // uniendo las entidades por las siguientes llaves
-            .HasKey(od => new { od.OrderId, od.ProductId });
+                    modelBuilder.Entity<OrderDetail>()
+                    // uniendo las entidades por las siguientes llaves
+                    .HasKey(od => new { od.OrderId, od.ProductId });
 
-            modelBuilder.Entity<Order>()
-            .HasOne<Customer>()
-            .WithMany() // se realaciona a muchos
-            .HasForeignKey(o => o.customerId); // tomando como llave foreana producto id
+                    modelBuilder.Entity<Order>()
+                    .HasOne<Customer>()
+                    .WithMany() // se realaciona a muchos
+                    .HasForeignKey(o => o.customerId); // tomando como llave foreana producto id
 
 
-            modelBuilder.Entity<OrderDetail>()
-                .HasOne<Product>()
-                .WithMany() // se realaciona a muchos
-                .HasForeignKey(od => od.ProductId); // tomando como llave foreana producto id
+                    modelBuilder.Entity<OrderDetail>()
+                    .HasOne<Product>()
+                    .WithMany() // se realaciona a muchos
+                    .HasForeignKey(od => od.ProductId); // tomando como llave foreana producto id
 
 
             // agregar datos de prueba

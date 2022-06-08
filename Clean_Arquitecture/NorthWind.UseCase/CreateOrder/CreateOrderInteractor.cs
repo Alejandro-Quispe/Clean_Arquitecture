@@ -66,10 +66,10 @@ namespace NorthWind.UseCase.CreateOrder
             }
                    catch(Exception ex)
                 {
-                throw new GeneralException("Error al crear la orden",ex.Message)
+                throw new GeneralException("Error al crear la orden", ex.Message);
 
 
-                 }
+                 };
             return Order.Id;
             }
 
