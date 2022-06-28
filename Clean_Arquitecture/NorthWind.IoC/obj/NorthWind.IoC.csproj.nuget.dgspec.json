@@ -49,19 +49,11 @@
           "dependencies": {
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[10.3.3, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            },
-            "MediatR.Extensions.Autofac.DependencyInjection": {
-              "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[11.0.3, )"
             },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",

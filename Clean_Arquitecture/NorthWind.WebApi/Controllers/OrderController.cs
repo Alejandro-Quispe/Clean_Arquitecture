@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NorthWind.UseCase.CreateOrder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +13,11 @@ namespace NorthWind.WebApi.Controllers
     [ApiController]
     public class OrderController : ControllerBase
     {
-
-        readonly IMediator Mediator;
-
-        public OrderController(IMediator mediator)
-        { 
+ 
+            
+     }
         
         
-        }
 
-    }
 }
+
